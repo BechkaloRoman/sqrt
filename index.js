@@ -17,13 +17,11 @@ function sqrt (a,b,c){
                 x2 = (-b-Math.sqrt(d))/(2*a);
                 return  '<br>' +'X1= '+ x1 + '<br>' +'X2= '+x2;
             }
-        else if (d==0){
+        else if (d===0){
             x = -b/(2*a);
             return 'Discriminator = 0. So one answer: X= ' + x;
             } 
-        else if (d<0){
             return 'd<0. Not result';
-            }
 }
 
 function disc(a,b,c){
